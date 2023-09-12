@@ -1,0 +1,68 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-botuser-dev-111227-authRole",
+      "UnauthRoleArn": "arn:aws:iam::012434724425:role/amplify-botuser-dev-111227-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::012434724425:role/amplify-botuser-dev-111227-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-botuser-dev-111227-deployment",
+      "UnauthRoleName": "amplify-botuser-dev-111227-unauthRole",
+      "StackName": "amplify-botuser-dev-111227",
+      "StackId": "arn:aws:cloudformation:us-east-1:012434724425:stack/amplify-botuser-dev-111227/2e0d1f90-430a-11ee-8351-0a07cb90da45",
+      "AmplifyAppId": "d1fiz1fjxwl2es"
+    },
+    "categories": {
+      "auth": {
+        "botuser011c6517": {}
+      },
+      "interactions": {
+        "lexdd0d9ca3": {
+          "deploymentBucketName": "amplify-botuser-dev-111227-deployment",
+          "s3Key": "amplify-builds/lexdd0d9ca3-47585178614337457a6a-build.zip"
+        },
+        "lex51bd3f21": {
+          "deploymentBucketName": "amplify-botuser-dev-111227-deployment",
+          "s3Key": "amplify-builds/lex51bd3f21-4e772f4b50626e347439-build.zip"
+        }
+      },
+      "api": {
+        "botuser": {}
+      }
+    }
+  },
+  "lexuser": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-botuser-lexuser-113425-authRole",
+      "UnauthRoleArn": "arn:aws:iam::012434724425:role/amplify-botuser-lexuser-113425-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::012434724425:role/amplify-botuser-lexuser-113425-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-botuser-lexuser-113425-deployment",
+      "UnauthRoleName": "amplify-botuser-lexuser-113425-unauthRole",
+      "StackName": "amplify-botuser-lexuser-113425",
+      "StackId": "arn:aws:cloudformation:us-east-1:012434724425:stack/amplify-botuser-lexuser-113425/3b350850-5132-11ee-9ecd-0a85c6043851",
+      "AmplifyAppId": "d1fiz1fjxwl2es"
+    },
+    "categories": {
+      "auth": {
+        "botuser011c6517": {}
+      },
+      "interactions": {
+        "lex51bd3f21": {
+          "deploymentBucketName": "amplify-botuser-lexuser-113425-deployment",
+          "s3Key": "amplify-builds/lex51bd3f21-4e772f4b50626e347439-build.zip"
+        },
+        "lexdd0d9ca3": {
+          "deploymentBucketName": "amplify-botuser-lexuser-113425-deployment",
+          "s3Key": "amplify-builds/lexdd0d9ca3-45786e73796230483470-build.zip"
+        },
+        "tripBot": {
+          "deploymentBucketName": "amplify-botuser-lexuser-113425-deployment",
+          "s3Key": "amplify-builds/tripBot-327947786f694279312f-build.zip"
+        }
+      },
+      "api": {
+        "botuser": {}
+      }
+    }
+  }
+}

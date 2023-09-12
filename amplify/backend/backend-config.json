@@ -1,0 +1,113 @@
+{
+  "api": {
+    "botuser": {
+      "dependsOn": [],
+      "output": {
+        "authConfig": {
+          "additionalAuthenticationProviders": [],
+          "defaultAuthentication": {
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 7
+            },
+            "authenticationType": "API_KEY"
+          }
+        }
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "AppSync"
+    }
+  },
+  "auth": {
+    "botuser011c6517": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "interactions": {
+    "lex51bd3f21": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lex"
+    },
+    "lexdd0d9ca3": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lex"
+    },
+    "tripBot": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lex"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_interactions_lex51bd3f21_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lex51bd3f21"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_lex51bd3f21_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lex51bd3f21"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_lexdd0d9ca3_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lexdd0d9ca3"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_lexdd0d9ca3_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "lexdd0d9ca3"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_tripBot_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "tripBot"
+        }
+      ]
+    },
+    "AMPLIFY_interactions_tripBot_s3Key": {
+      "usedBy": [
+        {
+          "category": "interactions",
+          "resourceName": "tripBot"
+        }
+      ]
+    }
+  }
+}

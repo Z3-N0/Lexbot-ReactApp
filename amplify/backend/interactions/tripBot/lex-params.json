@@ -1,0 +1,53 @@
+{
+    "resourceName": "tripBot",
+    "botName": "Intercity",
+    "intents": [
+        {
+            "slots": [
+                {
+                    "name": "city",
+                    "type": "AMAZON.AT_CITY",
+                    "prompt": "In what city do you need to rent a car?",
+                    "required": true,
+                    "customType": false
+                },
+                {
+                    "name": "toCity",
+                    "type": "AMAZON.AT_CITY",
+                    "prompt": "What city are you going to?",
+                    "required": true,
+                    "customType": false
+                },
+                {
+                    "name": "carType",
+                    "type": "CarTypeValues",
+                    "prompt": "What type of car would you like to rent?",
+                    "required": true,
+                    "customType": true
+                },
+                {
+                    "name": "Gender",
+                    "type": "Gender",
+                    "prompt": "What is the preferred gender of your driver?",
+                    "required": true,
+                    "customType": true
+                },
+                {
+                    "name": "confirm",
+                    "type": "AMAZON.AT_CITY",
+                    "prompt": "confirm?",
+                    "required": false,
+                    "customType": false
+                }
+            ],
+            "utterances": [
+                "book a car"
+            ],
+            "intentName": "bookTrip",
+            "newSlotTypes": []
+        }
+    ],
+    "outputVoice": false,
+    "sessionTimeout": 4,
+    "coppa": false
+}
