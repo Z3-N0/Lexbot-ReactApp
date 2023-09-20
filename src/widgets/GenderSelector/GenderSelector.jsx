@@ -47,19 +47,6 @@ const GenderSelector = (props) => {
       <h1 className="gender-selector-header">Choose a Gender:</h1>
       <div className="gender-selector-button-container">
         {DriverOptionsList}
-        {/* <button
-          className="genders-selector-button"
-          onClick={() => setType("Male")}
-        >
-          male
-        </button>
-        <button
-          className="genders-selector-button"
-          onClick={() => setType("Female")}
-        >
-          female
-        </button> */}
-       
       </div>
     </div>
   );

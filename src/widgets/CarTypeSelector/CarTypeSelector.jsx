@@ -48,24 +48,6 @@ const CarTypeSelector = (props) => {
       <h1 className="car-selector-header">Choose a Type:</h1>
       <div className="car-selector-button-container">
         {carTypeList}
-        {/* <button
-          className="cars-selector-button"
-          onClick={() => setType("Luxury")}
-        >
-          Luxury
-        </button>
-        <button
-          className="cars-selector-button"
-          onClick={() => setType("Midsize")}
-        >
-          Midsize
-        </button>
-        <button
-          className="cars-selector-button"
-          onClick={() => setType("Compact")}
-        >
-          Compact
-        </button> */}
       </div>
     </div>
   );
