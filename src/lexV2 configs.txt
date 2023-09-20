@@ -1,0 +1,44 @@
+// Amplify.addPluggable(new AWSLexV2Provider());
+// LexV1 Bot
+
+
+// LexV2 Bot
+// const interactionsConfig = {
+//   Auth: {
+//     identityPoolId: "us-east-1:ee852981-5624-4239-b5dc-93c4b8c505c8",
+//     region: "us-east-1"
+//   },
+//   Interactions: {
+//     bots: {
+//       BookTripV2: {
+//         name: "BookTripV2",
+//         aliasId: "TSTALIASID",
+//         botId: "WJZPXNJOKK",
+//         localeId: "en_US",
+//         region: "us-east-1",
+//         providerName: "AWSLexV2Provider",
+//       },
+//     }
+//   }
+// }
+
+// Amplify.configure(interactionsConfig);  
+  
+  
+  //MESSAGE CONFIG FOR LEX V2
+  //let response = await push(lowerCaseMessage); 
+  //  let resp = ''
+  //  if (response.length > 1)
+  //  {
+      
+  //     for(let i = 0; i < response.length; ++i)
+  //     {
+  //       resp += response[i].content;
+  //       resp += "\n"
+
+  //     }
+  //  }
+  //  else
+  //  {
+  //   resp = response[0].content
+  //  }
