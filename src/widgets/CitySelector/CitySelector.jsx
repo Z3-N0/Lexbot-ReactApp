@@ -23,8 +23,6 @@ async function fetchCities(values) {
 };
 let cities = await fetchCities('fetch cities');
 
-
-
 const CitySelector = (props) => {
   const { setState, actionProvider } = props; 
 
@@ -33,7 +31,6 @@ const CitySelector = (props) => {
       ...state,
       cityName: city,
     }));
-
     actionProvider.handleResp(city);
     actionProvider.sendResp(city);
   };

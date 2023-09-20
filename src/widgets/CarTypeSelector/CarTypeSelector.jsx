@@ -17,7 +17,6 @@ async function fetchCarTypes(values) {
       console.log(data)
     })
     .catch(error => console.error(error));
-
   })
 };
 let carTypes = await fetchCarTypes('fetch types');
@@ -31,7 +30,6 @@ const CarTypeSelector = (props) => {
       ...state,
       carType: Type,
     }));
-
     actionProvider.handleResp(Type);
     actionProvider.sendResp(Type);
   };

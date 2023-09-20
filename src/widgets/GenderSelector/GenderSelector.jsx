@@ -31,7 +31,6 @@ const GenderSelector = (props) => {
       ...state,
       DriverGender: gender,
     }));
-
     actionProvider.handleResp(gender);
     actionProvider.sendResp(gender);
   };
