@@ -3,8 +3,6 @@ import { Amplify, Interactions } from 'aws-amplify'
 import awsconfig from './aws-exports';
 import { createClientMessage } from 'react-chatbot-kit';
 
-
-
 Amplify.configure({
   Auth: {
     identityPoolId: 'us-east-1:ee852981-5624-4239-b5dc-93c4b8c505c8',
